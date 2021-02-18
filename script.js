@@ -14,7 +14,6 @@ console.log('мінімальне число ', minDrinksPrice);
 const drinksPriceSum = cola + pepsi + fanta;
 console.log('вартість всіх товарів ', drinksPriceSum);
 
-
 //сума без копійок
 const floorDrinksSum = Math.floor(cola) + Math.floor(pepsi) + Math.floor(fanta);
 console.log('сума без копійок ', floorDrinksSum);
