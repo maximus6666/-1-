@@ -27,8 +27,8 @@ let isEven = Math.floor(drinksPriceSum) % 2 === 0;
 console.log('число є парне:', isEven);
 
 //сума решти при оплаті всіх товарів, клієнт платить 500
-const clientPay500 = 500;
-const restOfMoney = clientPay500 - drinksPriceSum;
+const clientPayment = 500;
+const restOfMoney = clientPayment - drinksPriceSum;
 console.log('сума решти при оплаті всіх товарів, клієнт платить 500: ', restOfMoney);
 
 //середнє значення цін, округлене до другого знаку після коми
